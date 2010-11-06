@@ -1,0 +1,147 @@
+// !$*UTF8*$!
+{
+	1D3623240D0F684500981E51 /* SplitViewTestAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {935, 455}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 806}";
+		};
+	};
+	1D3623250D0F684500981E51 /* SplitViewTestAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {936, 832}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{855, 857}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* SplitViewTest */ = {
+		activeExec = 0;
+		executables = (
+			E421FF3E1110F4F700617962 /* SplitViewTest */,
+		);
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = E421FF3E1110F4F700617962 /* SplitViewTest */;
+		activeSDKPreference = iphonesimulator3.2;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* SplitViewTest */;
+		codeSenseManager = E421FF4A1110F51600617962 /* Code sense */;
+		executables = (
+			E421FF3E1110F4F700617962 /* SplitViewTest */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					757,
+					20,
+					48.16259765625,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 286323959;
+			PBXWorkspaceStateSaveDate = 286323959;
+		};
+		perUserProjectItems = {
+			E42100E011115B0B00617962 /* PBXTextBookmark */ = E42100E011115B0B00617962 /* PBXTextBookmark */;
+			E42100E111115B0B00617962 /* PBXTextBookmark */ = E42100E111115B0B00617962 /* PBXTextBookmark */;
+			E42100E211115B0B00617962 /* PBXBookmark */ = E42100E211115B0B00617962 /* PBXBookmark */;
+			E42100E311115B0B00617962 /* PlistBookmark */ = E42100E311115B0B00617962 /* PlistBookmark */;
+		};
+		sourceControlManager = E421FF491110F51600617962 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	E42100E011115B0B00617962 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* SplitViewTestAppDelegate.h */;
+		name = "SplitViewTestAppDelegate.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 806;
+		vrLoc = 0;
+	};
+	E42100E111115B0B00617962 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* SplitViewTestAppDelegate.m */;
+		name = "SplitViewTestAppDelegate.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 857;
+		vrLoc = 855;
+	};
+	E42100E211115B0B00617962 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 8D1107310486CEB800E47090 /* SplitViewTest-Info.plist */;
+	};
+	E42100E311115B0B00617962 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* SplitViewTest-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/davidpetrie/Documents/Projects/Research/iPad Tests/SplitViewTest/SplitViewTest-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	E421FF3E1110F4F700617962 /* SplitViewTest */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = SplitViewTest;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	E421FF491110F51600617962 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	E421FF4A1110F51600617962 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+}
