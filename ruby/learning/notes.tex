@@ -1,0 +1,180 @@
+\documentclass[10pt,twoside,a4paper]{article}
+\usepackage[dvips]{graphicx}
+\usepackage{verbatim}
+\usepackage{amsmath}
+\author{David Petrie}
+\title{Ruby on Rails Notes}
+\begin{document}
+\maketitle
+
+
+\section{Rails Environment}
+
+\subsection{Emacs as Ruby-on-Rails IDE}
+
+Install the following plugins for emacs:
+\begin{itemize}
+\item RHTML and Rinari
+\item find-recursive and snippet.el
+\item emacs-rails
+\item ruby-electic.el
+\end{itemize}
+
+Most of this stuff available on rubyforge, though will need to google for ruby-electric.el.
+
+\subsection{Creating a Rails Project}
+
+\begin{verbatim}
+$ rails <project_name>
+\end{verbatim}
+
+After that, all the initial help you need is to be found in the README file in the resulting ruby application.
+
+\section{The Ruby Language}
+
+Created by Yukihiro Matsumoto (aka matz).
+
+\subsection{Notes}
+
+This subsection contains various bits of pieces from the web. Not including attribution so I can do this quickly, but needless to say most of the notes in this subsection were not written by me.
+
+\subsubsection{Pass-By-Ref or Pass-By-Value}
+
+Ruby only has objects, so pass by 'value' is nonsensical, there are only references. Consequently Ruby has no 'simple' types.
+
+However, watch for methods that return new object. int + int returns a new int, it doesn't modify the value of the old int.
+
+In C, when you have "int a = 1;", the value of a is 1 (a primitive type). In Ruby, when you have "a = 1", the value of a is actually a reference to an instance of Fixnum which represents the integer 1. Ruby has no primitive types (ok, it's implimented in C, so they do exist behind the scenes; but there is no way to access a pure primitive type within your Ruby code).
+
+In the following Ruby code:
+
+  a = 1
+  b = a
+
+the first line reserves memory space (behind the scenes in the code for the Ruby interpreter) for an instance of Fixnum and creates a new instance of Fixnum with the value of 1. It then assigns a reference to that instance of Fixnum to the variable a. However, the second line does not create a new Fixnum address space in memory. The second line simply tells the variable b to reference the same object that variable a currently references. This is similar to (but not exactly the same as) the following C code:
+
+  int x = 1; /* this (sort of) happens behind the scenes in Ruby */
+  int a = &x;
+  int b = a;
+
+The difference is that, since Ruby doesn't have explicit pointers, any methods invoked on the a or b variables are automatically dereferenced and called on the actual Fixnum object those variable point to (I guess you could say the "pointer" is both implicit _and_ unavoidable). In C, you would have to specifically dereference the variable, otherwise you would be operating on the memory address instead of the contents of that memory space.
+
+
+
+
+
+
+\subsection{Commenting}
+
+\begin{verbatim}
+\end{verbatim}
+
+\begin{verbatim}
+# comment
+\end{verbatim}
+
+or, for comment blocks:
+
+\begin{verbatim}
+=begin
+comment line 1
+comment line 2
+etc...
+=end
+\end{verbatim}
+
+
+
+\subsection{Running}
+
+Interactive mode:
+
+\begin{verbatim}
+$ irb
+irb(main):001:0> 1+1
+=> 2
+irb(main):002:0> print "helloworld"
+helloworld=> nil
+\end{verbatim}
+
+A script file:
+
+\begin{verbatim}
+$ touch myprogram.rb
+$ echo "print \"helloworld\n\"" >> myprogram.rb
+$ ruby myprogram.rb
+\end{verbatim}
+
+As far as I can tell, ruby doesn't really do compilation, though there is a strange ruby to python compiler (see $http://github.com/why/unholy/tree/master$).
+
+
+
+\subsection{Lists}
+
+Basic array declaration:
+
+\begin{verbatim}
+myarray = [1,2,2,3,5,6,7]
+\end{verbatim}
+
+
+\subsection{File IO}
+
+Reading:
+
+\subsection{Control Structures}
+
+Loops
+
+\begin{verbatim}
+mylist = [1,2,2,3,5,6,7]
+mylist.each do |item|
+  print "%d\n" % (item * 3)
+end
+
+
+\end{verbatim}
+
+
+\subsection{Functions}
+
+map (except you map a block to some code), weirdly.
+
+Lambda style
+\begin{verbatim}
+c = Proc.new { |v| v > 5 }
+res = c.call(4)
+\end{verbatim}
+
+The items between the pipes in the block contain the ``input'' variables for the lambda statement.
+
+\subsection{Files}
+
+Write to a file:
+
+\begin{verbatim}
+tosort = []
+count = 3000
+while count > 0
+  tosort << rand(1000)
+
+  count -= 1
+end
+
+f = File.new("out", "w")
+
+f.write(tosort.join("\n"))
+\end{verbatim}
+
+Read from a file:
+
+\begin{verbatim}
+f2 = File.new("out", "r")
+fileList = f2.readlines()
+
+puts fileList
+\end{verbatim}
+
+
+
+\end{document}
