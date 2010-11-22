@@ -1,0 +1,31 @@
+OAUTH NOTES
+
+Oauth is a mechanism that allows service providers to give third parties restricted access to private resources owned by their users.
+
+The valet key is a very good real world metaphor for Oauth.
+
+Terms I might need to know
+
+Service Provider
+- A web server or service where restricted items are kept. Must provide a full and complete implementation of Oauth.
+
+Consumer
+- An application that the user is using to access the restricted items on the Service Provider's device.
+
+Protected Resources
+- Stuff owned by the user on the Service Provider. THe consumer application will be using the Oauth protocol to get restricted access to the resources.
+
+Tokens
+- Normally a user will give a user name and password to the service provider to access their own items. The consumer application should not know the username and password due to the severe security problems associated with this (example: your password is also your bank password). To deal with this, the Oauth protocol uses tokens - strings of random alphanumeric characters - to allow the consumer to access protected resources on the service provider's service.
+
+Details:
+- Consumer application will have an authorized key and "secret".
+- When the user wants to give the consumer access to the protected resources on the service provider, the consumer will ask for a request token from the service provider.
+- The request token contains a url to a user authorization page on the service provider. The consumer redirects the user to the auth page.
+- The user enters their service provider credentials on this page.
+- If the login was successful, the service provider will ask the user to approve the consumer application.
+- The service provider marks the request token as 'user-authorized'.
+- Then the service provider will redirect the user back to the consumer service, along with the updated request token.
+- The consumer application then asks for an access token from the service provider. The access token is the token that must be used by the consumer to actually access the protected resources on the service provider.
+- The consumer then requests the actual resources (usually determined by the user) using the access token.
+
