@@ -1,0 +1,15 @@
+Copyright David Petrie 2008
+
+Both depth-first search and breadth-first search can be tested with prebuilt
+graphs in "SearchTest.hs". Just compile and execute SearchTest.hs for this.
+Alternatively, from the same directory as "SearchTest.hs", fire up ghci and
+type the following:
+Prelude> :add SearchTest.hs
+*Main> main
+
+To use breadth first search and depth first search directly in a haskell 
+script, import BFS and/or DFS, define a set of functions the describe a 
+graph and call dfsearch or bfsearch depending on what traversal sequence 
+you want. The signatures of both functions are:
+   bfsearch :: (Eq a) => (a -> [a]) -> a -> (Queue a)
+   dfsearch :: (Eq a) => (a -> [a]) -> a -> (Stack a)
