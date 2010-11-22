@@ -1,0 +1,8 @@
+grep -rnE "CO[A-Z][A-Z]\s*[0-9]{3}" * > out1
+sed -i '/^.*DistGameOfLife.*$/d' out1
+
+
+
+find -type f -exec sed -i 's/DP 2008/Copyright David Petrie 2008/g' {} \;
+find -type f -exec sed -i '/CO[A-Z][A-Z]\s*[0-9]{3}/d' {} \;
+
