@@ -17,4 +17,4 @@ genPrimes(1000)
 genPrimes(10000)
 genPrimes(100000)
 
-# would be faster by iterating through a range and calling Miller-Rabin
+# faster with Miller-Rabin
