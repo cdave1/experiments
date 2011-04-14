@@ -1,0 +1,440 @@
+// !$*UTF8*$!
+{
+	1D3623240D0F684500981E51 /* physfstestAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {945, 492}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 484}";
+		};
+	};
+	1D3623250D0F684500981E51 /* physfstestAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {945, 894}}";
+			sepNavSelRange = "{1167, 0}";
+			sepNavVisRange = "{138, 1097}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* physfstest */ = {
+		activeExec = 0;
+		executables = (
+			6357A47913279B6C008C6B1C /* physfstest */,
+		);
+	};
+	2514C27910084DCA00A42282 /* Shader.fsh */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.glsl;
+		name = Shader.fsh;
+		path = /Users/david/Hacks/ios/physfstest/Shaders/Shader.fsh;
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {945, 502}}";
+			sepNavSelRange = "{172, 0}";
+			sepNavVisRange = "{0, 208}";
+		};
+	};
+	28EC4C5611D54ECE0027AA9F /* physfstestViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {945, 492}}";
+			sepNavSelRange = "{165, 0}";
+			sepNavVisRange = "{0, 232}";
+		};
+	};
+	28EC4C5711D54ECE0027AA9F /* physfstestViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {945, 492}}";
+			sepNavSelRange = "{257, 0}";
+			sepNavVisRange = "{0, 336}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 6357A47913279B6C008C6B1C /* physfstest */;
+		activeSDKPreference = iphonesimulator4.3;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* physfstest */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* physfstest */,
+		);
+		codeSenseManager = 6357A48D13279B7F008C6B1C /* Code sense */;
+		executables = (
+			6357A47913279B6C008C6B1C /* physfstest */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					767,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					727,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 321363798;
+			PBXWorkspaceStateSaveDate = 321363798;
+		};
+		perUserProjectItems = {
+			634FD7EF13279FA5009FE19C /* PBXTextBookmark */ = 634FD7EF13279FA5009FE19C /* PBXTextBookmark */;
+			634FD7F61327A023009FE19C /* PBXTextBookmark */ = 634FD7F61327A023009FE19C /* PBXTextBookmark */;
+			634FD8021327A035009FE19C /* PBXTextBookmark */ = 634FD8021327A035009FE19C /* PBXTextBookmark */;
+			634FD8161327A131009FE19C /* PBXTextBookmark */ = 634FD8161327A131009FE19C /* PBXTextBookmark */;
+			634FD81A1327A1B5009FE19C /* PBXTextBookmark */ = 634FD81A1327A1B5009FE19C /* PBXTextBookmark */;
+			634FD81D1327A211009FE19C /* PBXTextBookmark */ = 634FD81D1327A211009FE19C /* PBXTextBookmark */;
+			634FD8221327A24C009FE19C /* PBXTextBookmark */ = 634FD8221327A24C009FE19C /* PBXTextBookmark */;
+			634FD8251327A298009FE19C /* PBXTextBookmark */ = 634FD8251327A298009FE19C /* PBXTextBookmark */;
+			634FD8281327A2ED009FE19C /* PBXTextBookmark */ = 634FD8281327A2ED009FE19C /* PBXTextBookmark */;
+			634FD82D1327A314009FE19C /* PBXTextBookmark */ = 634FD82D1327A314009FE19C /* PBXTextBookmark */;
+			634FD8321327A378009FE19C /* PBXTextBookmark */ = 634FD8321327A378009FE19C /* PBXTextBookmark */;
+			634FD8351327A394009FE19C /* PBXTextBookmark */ = 634FD8351327A394009FE19C /* PBXTextBookmark */;
+			634FD8381327A3A1009FE19C /* PBXTextBookmark */ = 634FD8381327A3A1009FE19C /* PBXTextBookmark */;
+			634FD8461327A469009FE19C /* PBXTextBookmark */ = 634FD8461327A469009FE19C /* PBXTextBookmark */;
+			634FD8471327A469009FE19C /* PBXTextBookmark */ = 634FD8471327A469009FE19C /* PBXTextBookmark */;
+			634FD8481327A469009FE19C /* PBXTextBookmark */ = 634FD8481327A469009FE19C /* PBXTextBookmark */;
+			634FD8491327A469009FE19C /* PBXTextBookmark */ = 634FD8491327A469009FE19C /* PBXTextBookmark */;
+			634FD84A1327A469009FE19C /* PBXTextBookmark */ = 634FD84A1327A469009FE19C /* PBXTextBookmark */;
+			634FD84D1327A484009FE19C /* PBXTextBookmark */ = 634FD84D1327A484009FE19C /* PBXTextBookmark */;
+			6357A51513279EF3008C6B1C = 6357A51513279EF3008C6B1C /* PBXTextBookmark */;
+			6357A51813279EF3008C6B1C = 6357A51813279EF3008C6B1C /* PBXTextBookmark */;
+			6357A52C13279F1A008C6B1C = 6357A52C13279F1A008C6B1C /* PBXTextBookmark */;
+			6357A52D13279F1A008C6B1C = 6357A52D13279F1A008C6B1C /* PBXTextBookmark */;
+			6357A53113279F38008C6B1C = 6357A53113279F38008C6B1C /* PBXTextBookmark */;
+			6357A55413279F4E008C6B1C = 6357A55413279F4E008C6B1C /* PBXTextBookmark */;
+		};
+		sourceControlManager = 6357A48C13279B7F008C6B1C /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	634FD7EF13279FA5009FE19C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* physfstestAppDelegate.m */;
+		name = "physfstestAppDelegate.m: 14";
+		rLen = 0;
+		rLoc = 269;
+		rType = 0;
+		vrLen = 974;
+		vrLoc = 31;
+	};
+	634FD7F61327A023009FE19C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* physfstestAppDelegate.m */;
+		name = "physfstestAppDelegate.m: 24";
+		rLen = 0;
+		rLoc = 492;
+		rType = 0;
+		vrLen = 988;
+		vrLoc = 31;
+	};
+	634FD8021327A035009FE19C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* physfstestAppDelegate.m */;
+		name = "physfstestAppDelegate.m: 24";
+		rLen = 0;
+		rLoc = 492;
+		rType = 0;
+		vrLen = 996;
+		vrLoc = 31;
+	};
+	634FD8161327A131009FE19C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* physfstestAppDelegate.m */;
+		name = "physfstestAppDelegate.m: 23";
+		rLen = 0;
+		rLoc = 492;
+		rType = 0;
+		vrLen = 1077;
+		vrLoc = 31;
+	};
+	634FD81A1327A1B5009FE19C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* physfstestAppDelegate.m */;
+		name = "physfstestAppDelegate.m: 23";
+		rLen = 0;
+		rLoc = 489;
+		rType = 0;
+		vrLen = 1075;
+		vrLoc = 31;
+	};
+	634FD81D1327A211009FE19C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* physfstestAppDelegate.m */;
+		name = "physfstestAppDelegate.m: 23";
+		rLen = 0;
+		rLoc = 489;
+		rType = 0;
+		vrLen = 1078;
+		vrLoc = 31;
+	};
+	634FD8221327A24C009FE19C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* physfstestAppDelegate.m */;
+		name = "physfstestAppDelegate.m: 23";
+		rLen = 0;
+		rLoc = 489;
+		rType = 0;
+		vrLen = 1079;
+		vrLoc = 31;
+	};
+	634FD8251327A298009FE19C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* physfstestAppDelegate.m */;
+		name = "physfstestAppDelegate.m: 23";
+		rLen = 0;
+		rLoc = 489;
+		rType = 0;
+		vrLen = 1087;
+		vrLoc = 31;
+	};
+	634FD8281327A2ED009FE19C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* physfstestAppDelegate.m */;
+		name = "physfstestAppDelegate.m: 25";
+		rLen = 0;
+		rLoc = 615;
+		rType = 0;
+		vrLen = 1079;
+		vrLoc = 31;
+	};
+	634FD82D1327A314009FE19C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* physfstestAppDelegate.m */;
+		name = "physfstestAppDelegate.m: 25";
+		rLen = 0;
+		rLoc = 560;
+		rType = 0;
+		vrLen = 1086;
+		vrLoc = 31;
+	};
+	634FD8321327A378009FE19C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* physfstestAppDelegate.m */;
+		name = "physfstestAppDelegate.m: 27";
+		rLen = 0;
+		rLoc = 706;
+		rType = 0;
+		vrLen = 1060;
+		vrLoc = 31;
+	};
+	634FD8351327A394009FE19C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* physfstestAppDelegate.m */;
+		name = "physfstestAppDelegate.m: 27";
+		rLen = 0;
+		rLoc = 706;
+		rType = 0;
+		vrLen = 1053;
+		vrLoc = 31;
+	};
+	634FD8381327A3A1009FE19C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* physfstestAppDelegate.m */;
+		name = "physfstestAppDelegate.m: 25";
+		rLen = 0;
+		rLoc = 643;
+		rType = 0;
+		vrLen = 1067;
+		vrLoc = 31;
+	};
+	634FD8461327A469009FE19C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28EC4C5611D54ECE0027AA9F /* physfstestViewController.h */;
+		name = "physfstestViewController.h: 9";
+		rLen = 0;
+		rLoc = 165;
+		rType = 0;
+		vrLen = 232;
+		vrLoc = 0;
+	};
+	634FD8471327A469009FE19C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28EC4C5711D54ECE0027AA9F /* physfstestViewController.m */;
+		name = "physfstestViewController.m: 12";
+		rLen = 0;
+		rLoc = 214;
+		rType = 0;
+		vrLen = 336;
+		vrLoc = 0;
+	};
+	634FD8481327A469009FE19C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* physfstestAppDelegate.h */;
+		name = "physfstestAppDelegate.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 484;
+		vrLoc = 0;
+	};
+	634FD8491327A469009FE19C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* physfstestAppDelegate.m */;
+		name = "physfstestAppDelegate.m: 19";
+		rLen = 0;
+		rLoc = 357;
+		rType = 0;
+		vrLen = 1111;
+		vrLoc = 211;
+	};
+	634FD84A1327A469009FE19C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* physfstestAppDelegate.m */;
+		name = "physfstestAppDelegate.m: 24";
+		rLen = 0;
+		rLoc = 556;
+		rType = 0;
+		vrLen = 1067;
+		vrLoc = 211;
+	};
+	634FD84D1327A484009FE19C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* physfstestAppDelegate.m */;
+		name = "physfstestAppDelegate.m: 42";
+		rLen = 0;
+		rLoc = 1099;
+		rType = 0;
+		vrLen = 1032;
+		vrLoc = 138;
+	};
+	6357A47913279B6C008C6B1C /* physfstest */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = physfstest;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	6357A48C13279B7F008C6B1C /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	6357A48D13279B7F008C6B1C /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	6357A51513279EF3008C6B1C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6357A51613279EF3008C6B1C /* physfs_platforms.h */;
+		name = "physfs_platforms.h: 6";
+		rLen = 0;
+		rLoc = 158;
+		rType = 0;
+		vrLen = 1322;
+		vrLoc = 0;
+	};
+	6357A51613279EF3008C6B1C /* physfs_platforms.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = physfs_platforms.h;
+		path = /Users/david/Projects/opensource/physfs/physfs_platforms.h;
+		sourceTree = "<absolute>";
+	};
+	6357A51813279EF3008C6B1C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28EC4C5711D54ECE0027AA9F /* physfstestViewController.m */;
+		name = "physfstestViewController.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 837;
+		vrLoc = 0;
+	};
+	6357A52C13279F1A008C6B1C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2514C27910084DCA00A42282 /* Shader.fsh */;
+		name = "Shader.fsh: 12";
+		rLen = 0;
+		rLoc = 172;
+		rType = 0;
+		vrLen = 208;
+		vrLoc = 0;
+	};
+	6357A52D13279F1A008C6B1C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28EC4C5611D54ECE0027AA9F /* physfstestViewController.h */;
+		name = "physfstestViewController.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 692;
+		vrLoc = 0;
+	};
+	6357A53113279F38008C6B1C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* physfstestAppDelegate.m */;
+		name = "physfstestAppDelegate.m: 26";
+		rLen = 0;
+		rLoc = 657;
+		rType = 0;
+		vrLen = 1039;
+		vrLoc = 31;
+	};
+	6357A55413279F4E008C6B1C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* physfstestAppDelegate.m */;
+		name = "physfstestAppDelegate.m: 26";
+		rLen = 0;
+		rLoc = 657;
+		rType = 0;
+		vrLen = 974;
+		vrLoc = 31;
+	};
+}
