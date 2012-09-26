@@ -59,9 +59,6 @@ void quick(node_t *in, node_t *out, uint32 len)
 	uint32 i = 0;
 	int key = in[0].key;
 
-	// NOTE: I fucked this up for a bit by not initializing either
-	// of the upper or lower counts to zero.
-
 	node_t lower[len];
 	uint32 lowerSize = 0;
 	node_t upper[len];
