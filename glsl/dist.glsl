@@ -1,9 +1,7 @@
-// Distance field learning
+// 2D Distance fields
 //
 // 1. Configurable distance from a 2D polygon, where a polygon is a collection of edges
 // 
-// If a polygon is a collection of edges, how do we determine distance for a given point?
-// Is it a combination of values?  Or is it simply the closest edge?
 
 const int MAX_COORDS = 4;
 vec2 polygon[MAX_COORDS];
