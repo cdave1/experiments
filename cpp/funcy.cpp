@@ -3,30 +3,27 @@
 
 class base
 {
-public:
-	base();
+  public:
+    base();
 
-	virtual void someFunc() = 0;
+    virtual void someFunc() = 0;
 };
-
 
 class first : public base
 {
-public:
-	first();
+  public:
+    first();
 
-	void someFunc();
+    void someFunc();
 };
-
 
 class second : public base
 {
-public:
-	second();
+  public:
+    second();
 
-	void someFunc();
+    void someFunc();
 };
-
 
 first::first() : base()
 {
@@ -34,38 +31,33 @@ first::first() : base()
 
 void first::someFunc()
 {
-	printf("first called func\n");
+    printf("first called func\n");
 }
-
 
 second::second() : base()
 {
 }
 
-
 void second::someFunc()
 {
-	printf("second called func\n");
+    printf("second called func\n");
 }
 
-
-
-int main (int argc, char ** argv)
+int main(int argc, char **argv)
 {
-	first * f = new first();
+    first *f = new first();
 
-	second * s = new second();
+    second *s = new second();
 
-	void (base::*func)(void);
+    void (base::*func)(void);
 
-	func = &base::someFunc;
+    func = &base::someFunc;
 
-	void * p = NULL;
+    void *p = NULL;
 
+    p = f;
 
-	p = f;
+    ((base *)p)->func();
 
-	((base *)p)->func();
-
-	return 1;
+    return 1;
 }
