@@ -139,3 +139,4 @@ DerivedData
 *.mp3
 
 /nlp/MTIE
+node_modules

@@ -1,0 +1,15 @@
+{
+  "name": "websocketexample",
+  "version": "0.0.1",
+  "description": "Just a simple websocket server connection example",
+  "main": "ws.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "ws": "^3.0.0"
+  }
+}
