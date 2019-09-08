@@ -27,29 +27,29 @@ func createAndStartTimedOscillator(frequency:Double, amplitude: Double, bpm: UIn
     let _bpm = (1 ... 10000).clamp(bpm)
 
     // Convert bpm to a time interval
-    let BPS:UInt = 16
-    let interval = 1.0 / 16.0
+    let _BPS:UInt = 16
+    let _interval = 1.0 / 16.0
     var _nextBeat:UInt = firstBeat
-    var currentBeat:UInt = 1
+    var _currentBeat:UInt = 1
     var _stopBeat:UInt = 0;
 
-    let timer = Timer(timeInterval: interval, repeats: true) { timer in
-        if (currentBeat > BPS) {
+    let timer = Timer(timeInterval: _interval, repeats: true) { timer in
+        if (_currentBeat > _BPS) {
             _nextBeat = firstBeat
-            currentBeat = 1
+            _currentBeat = 1
         }
 
-        osc.phaseDistortion = -1.0 + (Double(currentBeat) / 16.0) * 2.0
+        osc.phaseDistortion = -1.0 + (Double(_currentBeat) / 16.0) * 2.0
 
-        if (currentBeat == _nextBeat) {
+        if (_currentBeat == _nextBeat) {
             osc.start()
             _stopBeat = _nextBeat + len
-            _nextBeat = repeats + currentBeat
+            _nextBeat = repeats + _currentBeat
         }
-        if (currentBeat == _stopBeat) {
+        if (_currentBeat == _stopBeat) {
             osc.stop()
         }
-        currentBeat += 1
+        _currentBeat += 1
     }
 
     RunLoop.main.add(timer, forMode: .common)
@@ -89,7 +89,7 @@ DispatchQueue.global(qos: .default).async {
     let mixerMain = AKMixer(mixer1, rev)
 
     do {
-        AudioKit.output = mixerMain
+        AudioKit.output = mixerMain //AKMixer(envelope, oscillator2)
         try AudioKit.start()
     } catch {
         print("Error: \(error)")
